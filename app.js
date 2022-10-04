@@ -50,5 +50,5 @@ let st = 'hdhf'
 // let z = prompt('Age?', '0');
 // console.log('Мне ' + z + ' лет');
 // console.log(typeof(+z));
-let i = 0;
-console.log(5==='5');
+// let i = 0;
+// console.log(5==='5');
