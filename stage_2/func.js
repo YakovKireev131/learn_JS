@@ -37,9 +37,41 @@
 // func();
 // console.log(a);
 
-function calc(a,b) {
-    return (a+b);
-}
-let sum = calc(3,4);
+// function calc(a,b) {
+//     return (a+b);
+// }
+// let sum = calc(3,4);
 
-console.log(sum);
+// console.log(sum);
+
+// let a = 10;
+// function func(){
+// 	//a =20;
+// };
+// func();
+// console.log(a); 
+function a(i) {
+    return function() {
+        console.log(i*10);
+    }
+}
+
+let asd = a(9);
+asd();
+
+// let strell = function(a,b) {
+//     return a+b;
+// }
+// console.log(strell(2,4))
+// 
+// //Более короткая запись функции выше
+// 
+// let strel = (a,b) => a+b;
+// console.log(strel(1,7));
+
+let str = "test test ";
+console.log(str.length);
+
+console.log(str.toUpperCase());
+str = str.toUpperCase();
+console.log(str);
