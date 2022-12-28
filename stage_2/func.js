@@ -50,14 +50,14 @@
 // };
 // func();
 // console.log(a); 
-function a(i) {
-    return function() {
-        console.log(i*10);
-    }
-}
+// function a(i) {
+//     return function() {
+//         console.log(i*10);
+//     }
+// }
 
-let asd = a(9);
-asd();
+// let asd = a(9);
+// asd();
 
 // let strell = function(a,b) {
 //     return a+b;
@@ -69,9 +69,23 @@ asd();
 // let strel = (a,b) => a+b;
 // console.log(strel(1,7));
 
-let str = "test test ";
-console.log(str.length);
+// let str = "test test ";
+// console.log(str.length);
 
-console.log(str.toUpperCase());
-str = str.toUpperCase();
-console.log(str);
+// console.log(str.toUpperCase());
+// str = str.toUpperCase();
+// console.log(str);
+
+
+function first() {
+    setTimeout(function(){
+        console.log(1);
+    }, 1500);
+}
+
+function second() {
+    console.log(2);
+}
+
+first();
+second();
